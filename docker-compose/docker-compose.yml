@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  backend:
+
+    image: code_igniter
+    build:
+      context: ..
+      dockerfile: Dockerfile
+
+    volumes:
+      - '..:/var/www/html/projet'
+
+    ports:
+      - 80:80
