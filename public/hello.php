@@ -1,2 +1,2 @@
 <?php
-echo("hello ewan il et genitl");
+echo("hello ewan il et gentil");
