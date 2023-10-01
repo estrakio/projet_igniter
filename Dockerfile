@@ -21,3 +21,4 @@ RUN mkdir projet
 COPY . /var/www/html/projet
 COPY ./apache_config/000-default.conf /etc/apache2/sites-available 
 # RUN chown -R www-data:www-data /var/www/html/projet/writable/
+RUN a2enmod rewrite 
